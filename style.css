@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+main {
+    width: 50%;
+    height: 60vh;
+    background: linear-gradient(rgb(77, 79, 80), rgb(46, 109, 168));
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 10px;
+    font-size: 23px;
+    color: white;
+}
+
+
+.image img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#search {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
